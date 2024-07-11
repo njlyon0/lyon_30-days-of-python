@@ -1,6 +1,6 @@
 # '30 Days of Python' Challenge
 
-This repository stores my attempts at the '[30 Days of Python](https://github.com/Asabeneh/30-Days-Of-Python/tree/master)' challenge.
+This repository stores my attempts at the '[30 Days of Python](https://github.com/Asabeneh/30-Days-Of-Python/tree/master)' challenge. Incididentally, this is also the start of my exploration of VS Code's integration with Git/GitHub
 
 ## Script/Notebook Explanations
 
