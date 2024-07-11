@@ -4,4 +4,4 @@ This repository stores my attempts at the '[30 Days of Python](https://github.co
 
 ## Script/Notebook Explanations
 
-Scripts start with a zero-padded number for the day with which they correspond. Further explanation can be found inside of the script.
+Folders (and scripts) start with a zero-padded number for the day with which they correspond. Further explanation can be found inside of eachscript.
