@@ -24,6 +24,7 @@ print(type(float(10)))
 # print(help(str))
 ## Help files can be escaped by typing "q"
 
-
-
-
+# We can also do simple arithmetic/numeric options on integer/float lists
+print(min([1, 2, 3, 4, 5]))
+print(max([1, 2, 3, 4, 5]))
+print(sum([1, 2, 3, 4, 5]))
