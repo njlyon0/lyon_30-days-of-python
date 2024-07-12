@@ -39,7 +39,6 @@ light_on = False
 ## Declare multiple variables on one line
 var_first, var_second = "hello", "world"
 
-
 # Exercises: Level 2
 
 ## Check the data type of all your variables using type() built-in function
