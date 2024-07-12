@@ -100,8 +100,8 @@ Formula is:
 Square root of (p1 - q1)^2 + (p2 - q2)^2
 """
 
-# Import needed library
+## Import needed library
 import math
 
-# Use square root function
+## Use square root function
 print( math.sqrt( ((2 - 10) ** 2) + ((3 - 8) ** 2) ) )
