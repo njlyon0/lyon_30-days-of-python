@@ -61,3 +61,21 @@ print("The first index position of \'Python\' is ", "Python"[0])
 # You could also "slice" substrings by specifying multiple boundary positions
 print("The first through third position of \'Python is\' ", "Python"[0:3])
 
+# Python also allows reversing strings
+print("The reverse of \'Python is\' ", "Python"[::-1])
+
+# We can skip characters too (in the below code we're skipping every second character)
+print("Python"[0:6:2])
+
+"""String Methods"""
+
+challenge_text = "thirty days of python"
+
+# We can use the various methods available to string type data to perform operations
+print(challenge_text.capitalize())
+print(challenge_text.count("t"))
+print(challenge_text.endswith("on"))
+print(challenge_text.find("y")) ## Returns *only FIRST* instance of supplied character
+print(challenge_text.rfind("y")) ## Returns *only LAST* instance of supplied character
+
+
