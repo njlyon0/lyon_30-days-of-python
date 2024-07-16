@@ -73,9 +73,35 @@ challenge_text = "thirty days of python"
 
 # We can use the various methods available to string type data to perform operations
 print(challenge_text.capitalize())
+print(challenge_text.title())
+print(challenge_text.swapcase())
 print(challenge_text.count("t"))
-print(challenge_text.endswith("on"))
 print(challenge_text.find("y")) ## Returns *only FIRST* instance of supplied character
 print(challenge_text.rfind("y")) ## Returns *only LAST* instance of supplied character
+print(challenge_text.index("y")) ## Returns *only FIRST* instance of supplied character
+print(challenge_text.rindex("y")) ## Returns *only LAST* instance of supplied character
 
+# We can also perform conditional operations with string methods
+print(challenge_text.endswith("on"))
+print(challenge_text.startswith("on"))
+print(challenge_text.isalnum()) # 'False' because a space is not an alphanumeric character
+print(challenge_text.isalpha()) # Checks for letters (w/o spaces; case *in-sensitive*)
+print(challenge_text.isdecimal()) # Checks for numbers (w/o spaces)
+print(challenge_text.isdigit()) # Checks for numbers & unicode symbols for numbers (w/o spaces)
+print(challenge_text.isnumeric()) # Expansion of 'isdigit' method
+print(challenge_text.isidentifier()) # WOULD the variable be a valid identifier name
+print(challenge_text.islower())
+print(challenge_text.isupper())
 
+# We can use the 'join' method to concatenate a list of strings into one string
+test_list = ["hello,", "is", "it", "me", "you're", "looking", "for?"]
+print(" ".join(test_list))
+
+# Do opposite operation with 'split' method
+print(challenge_text.split(" "))
+
+# Can remove particular characters from start/end with the 'strip' method
+print("xxx_abc_xxx".strip("xxx_"))
+
+# Replace characters
+print("xxx_abc_xxx".replace("xxx", "abc"))
