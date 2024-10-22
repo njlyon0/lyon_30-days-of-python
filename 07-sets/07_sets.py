@@ -33,7 +33,7 @@ print(fruits_set)
 fruits_set.update(["tomato", "watermelon", "tangerine"])
 print(fruits_set)
 
-# The "remove" method lets us rem,ove an item
+# The "remove" method lets us remove an item
 fruits_set.remove("tomato")
 print(fruits_set)
 
@@ -50,5 +50,30 @@ del ex_set
 
 """ Set Operations """
 
+# Make two small sets to demonstrate some set operations
+set_1 = {1, 2, 3}
+set_2 = {3, 4, 5}
 
+# Can join sets via the "union" method
+set_3 = set_1.union(set_2)
+## Note only unique items are preserved
+print(set_3)
 
+# Can find shared elements via the "intersection" method
+set_3 = set_1.intersection(set_2)
+print(set_3)
+
+# Can identify whether a set is a subset/superset of another with the corresponding method
+print(set_1.issubset(set_2))
+print(set_1.issuperset(set_2))
+
+# Can find items in one set not in the other with "difference" method
+set_3 = set_1.difference(set_2)
+print(set_3)
+
+# Symmetric difference shows all items in _either_ one or the other
+set_3 = set_1.symmetric_difference(set_2)
+print(set_3)
+
+# Can check whether sets have no shared items (i.e., are disjoint) with the "disjoint" method
+print(set_1.isdisjoint(set_2))
