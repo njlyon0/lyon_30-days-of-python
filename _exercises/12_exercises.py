@@ -170,6 +170,67 @@ generate_colors("rgb")
 # Exercises: Level 3
 
 ## 1. Call your function shuffle_list, it takes a list as a parameter and it returns a shuffled list
+def shuffle_list(list):
+    # Import needed module(s)
+    import random
 
+    # Make list(s) for output(s)
+    mix = []
+    coords = []
+
+    # Loop across list coords
+    while not len(coords) == len(list):
+
+        # Identify random number
+        rand = random.randint(0, len(list) - 1)
+
+        # If it's not already in coords:
+        if not rand in coords:
+            
+            # Add it to our records
+            coords.append(rand)
+
+            # Slice out that bit of the original list
+            item = list[rand]
+
+            # Add it to the mixed list
+            mix.append(item)
+
+        # Otherwise, try again
+        else: 
+            continue
+
+    # Return that mixed list
+    return mix
+
+# Invoke function
+fruits = ["mango", "banana", "pineapple", "lemon", "apple"]
+shuffle_list(fruits)
 
 ## 2. Write a function which returns an array of seven random numbers in a range of 0-9. All the numbers must be unique.
+def rand_seven():
+
+    # Import module(s)
+    import random
+
+    # Empty output lists
+    vals = []
+
+    # Loop across desired values
+    while not len(vals) == 7:
+
+        # Grab random number
+        new_val = random.randint(0, 7)
+
+        # Add it to the list if it's not there already
+        if not new_val in vals:
+            vals.append(new_val)
+        else:
+            continue
+
+    # Return finished values when done
+    return vals
+
+# Invoke function
+rand_seven()
+
