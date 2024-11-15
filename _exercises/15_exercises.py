@@ -1,0 +1,4 @@
+# Exercises - Type Errors
+
+
+
