@@ -162,5 +162,4 @@ cython_debug/
 #.idea/
 
 # Example files
-test.txt
-test.json
+test.*
