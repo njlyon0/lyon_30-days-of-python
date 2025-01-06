@@ -10,7 +10,7 @@ Scripts (notes and exercises) start with a zero-padded number for the day with w
 
 | **Day 1-10** | **Day 11-20** | **Day 21-30** |
 |:---:|:---:|:---:|
-| 01 - [Arithmetic](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/01a_arithmetic.py) & [Data Types](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/01b_data-types.py) | 11 - [Functions](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/11_functions.py) | 21 - Classes and Objects |
+| 01 - [Arithmetic](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/01a_arithmetic.py) & [Data Types](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/01b_data-types.py) | 11 - [Functions](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/11_functions.py) | 21 - [Classes and Objects](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/21_custom-classes-and-objects.py) |
 | 02 - [Variables](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/02a_variables.py) & [Built-in Functions](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/02b_built-in-functions.py) | 12 - [Modules](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/12_modules.py) | 22 - Web Scraping |
 | 03 - [Operators](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/03_operators.py) | 13 - [List Comprehension](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/13_list-comprehension.py) | 23 - Virtual Environments |
 | 04 - [Strings](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/04_strings.py) | 14 - [Higher Order Functions](https://github.com/njlyon0/lyon_30-days-of-python/blob/main/notes/14_higher-order-functions.py) | 24 - Statistics |
