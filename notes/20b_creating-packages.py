@@ -17,6 +17,17 @@ if os.path.exists(path = pkg_name) == False:
 else:
     print("Folder '", pkg_name, "' already exists")
 
+# Make the needed file(s)
+file_init = open(file = os.path.join(pkg_name, "init.py"), mode = "w")
+file_init.close()
 
+# Creating scripts (i.e., modules) manually
+## arithmetic.py
+## greet.py
 
+# Can then import as normal
+from my_package import arithmetic
+
+# And use the functions contained there!
+arithmetic.subtract(5, 3)
 
