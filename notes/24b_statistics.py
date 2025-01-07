@@ -11,4 +11,15 @@ These notes are mostly focused on the "numpy" module but delve into the "statist
 # Import needed module(s)
 import statistics
 import numpy as np
+import matplotlib as mpl
+import seaborn as sb
+
+# Sample an array of values from a normal distribution
+ex_normal = np.random.normal(100, 15, size = 50)
+ex_normal
+
+""" NumPy Functions """
+
+# 
+
 

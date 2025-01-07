@@ -122,3 +122,13 @@ np.random.randint(low = 0, high = 2, size = (2, 2))
 # Can grab random values from a known normal distribution as well
 ## Syntax is `...normal(mean, variance, size)`
 np.random.normal(50, 12, size = 15)
+
+""" NumPy Matrices """
+
+# Make a matrix of values
+ex_matrix = np.matrix(data = np.ones(shape = (4, 4), dtype = "float"))
+ex_matrix
+
+# Can make the matrix into an array with the "asarray" function
+ex_array = np.asarray(a = ex_matrix)
+ex_array
