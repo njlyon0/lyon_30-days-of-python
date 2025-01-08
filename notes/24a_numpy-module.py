@@ -2,6 +2,15 @@
 NumPy Module
 
 The "numpy" module is broadly useful for a lot of statistical tools. Below is a quick review of some of the core operations in this package with a strong emphasis on the "array" data type.
+
+Arrays differ from lists in the following ways:
+
+- Arrays support vectorized operations
+- Once created, arrays cannot have their size changed
+- Arrays _must_ have only one data type
+- Arrays occupy less space in memory
+- Arrays support boolean indexing
+
 """
 
 # Import needed module(s)
@@ -123,6 +132,10 @@ np.random.randint(low = 0, high = 2, size = (2, 2))
 ## Syntax is `...normal(mean, variance, size)`
 np.random.normal(50, 12, size = 15)
 
+# Can also randomly pull from a known set of values
+vowels = ["a", "e", "i", "o", "u"]
+np.random.choice(a = vowels, size = 2)
+
 """ NumPy Matrices """
 
 # Make a matrix of values
@@ -132,3 +145,12 @@ ex_matrix
 # Can make the matrix into an array with the "asarray" function
 ex_array = np.asarray(a = ex_matrix)
 ex_array
+
+""" Repeating Sequences """
+
+# Can repeat an entire sequence
+ex_list = [1, 2, 3]
+np.tile(ex_list, reps = 3)
+
+# Or repeat each item in a sequence
+np.repeat(ex_list, repeats = 3)
